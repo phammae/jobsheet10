@@ -30,7 +30,7 @@ public class SIAKAD17 {
                 totalPerMatkul += nilai[i][j];
             }
 
-            System.out.println("Mata Kuliah " + (j=1) + ": " + totalPerMatkul/4);
+            System.out.println("Mata Kuliah " + (j+1) + ": " + totalPerMatkul/4);
         }
     }
 }
